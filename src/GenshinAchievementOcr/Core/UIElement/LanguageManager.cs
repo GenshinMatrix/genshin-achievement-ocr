@@ -56,10 +56,14 @@ public static class LanguageManager
         return false;
     }
 
-    public static string Mui(string key)
+    public static string Mui(string key, params string[] args)
     {
         try
         {
+            if (args != null && args.Length > 0)
+            {
+                return MuiFormat(key, args);
+            }
             if (App.Current!.FindResource(key) is string value)
             {
                 return value;
@@ -73,13 +77,8 @@ public static class LanguageManager
     }
 
 
-    public static string Mui(string key, string arg0)
+    public static string MuiFormat(string key, string[] args)
     {
-        return string.Format(Mui(key), arg0);
-    }
-
-    public static string Mui(string key, string arg0, string arg1)
-    {
-        return string.Format(Mui(key), arg0, arg1);
+        return string.Format(Mui(key), args);
     }
 }

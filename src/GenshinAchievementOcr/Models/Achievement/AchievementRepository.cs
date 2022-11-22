@@ -7,17 +7,22 @@ namespace GenshinAchievementOcr.Models;
 
 internal static class AchievementRepository
 {
-    public static AchievementRepositoryMeta Meta { get; }
+    public static AchievementRepositoryMeta WondersOfTheWorldEnglish { get; }
 
     static AchievementRepository()
     {
         byte[] wonders_of_the_world = ResourceUtils.GetBytes($"pack://application:,,,/{Pack.Name};component/Resources/Achievements/english/wonders_of_the_world.json");
-        Meta = JsonConvert.DeserializeObject<AchievementRepositoryMeta>(Encoding.UTF8.GetString(wonders_of_the_world));
+        WondersOfTheWorldEnglish = JsonConvert.DeserializeObject<AchievementRepositoryMeta>(Encoding.UTF8.GetString(wonders_of_the_world));
     }
 
     public static AchievementRepositoryMetaItem GetById(int id)
     {
-        return Meta.Achievements.Where(item => item.Id == id).ToArray().First();
+        return WondersOfTheWorldEnglish.Achievements.Where(item => item.Id == id).ToArray().First();
+    }
+
+    public static int Count()
+    {
+        return WondersOfTheWorldEnglish.Achievements.Count();
     }
 }
 

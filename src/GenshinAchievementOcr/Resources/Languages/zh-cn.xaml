@@ -33,7 +33,7 @@
     <s:String x:Key="ReloadConfigFile">重载配置文件</s:String>
     <s:String x:Key="ReloadConfigFileDetail">重新加载配置文件，若配置格式不正确则会恢复为默认值。</s:String>
     <s:String x:Key="OpenConfigFileDetail">打开加载配置文件，修改后请手动重新加载。</s:String>
-    <s:String x:Key="JiggingCompletedTips">识别完成，自动打开的目录内UIAF格式文件以UID命名保存。共识别成就{0}个，耗时{1}分。</s:String>
+    <s:String x:Key="JiggingCompletedTips">识别完成，自动打开的目录内UIAF格式文件以UID命名保存。〔原神{5}〕UID:{0}用户共识别「天地万象」成就{1}/{2}个，完成度{3}%，耗时{4}分。</s:String>
     <s:String x:Key="JiggingNotCompletedTips">未能识别出任何成就信息。请打开「天地万象」后重新尝试。</s:String>
     <s:String x:Key="UsageMessageStepTitle">〔使用步骤〕</s:String>
     <s:String x:Key="UsageMessage1" xml:space="preserve">1. 启动游戏（限定：1440x900窗口／英语语言），可在托盘右键「启动游戏」自动以合适设置启动。</s:String>

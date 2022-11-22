@@ -45,7 +45,7 @@ internal class ImageJigging
         DateTime startDateTime = DateTime.Now;
 
         await Task.Delay(300);
-        string uid = await ImageRecognition.RecUID() ?? "UIAF";
+        string uid = await ImageRecognition.RecUID() ?? "000000000";
 
         if (string.IsNullOrWhiteSpace(uid))
         {
@@ -79,7 +79,7 @@ internal class ImageJigging
                 {
                     Logger.Error(e);
                 }
-                NoticeService.AddNotice(Mui("Tips"), Mui("JiggingCompletedTips", uiaf.List.Count.ToString(), $"{(DateTime.Now - startDateTime).TotalMinutes:0.0}"), string.Empty, ToastDuration.Short);
+                NoticeService.AddNotice(Mui("Tips"), Mui("JiggingCompletedTips", uid, uiaf.List.Count.ToString(), AchievementRepository.Count().ToString(), $"{(double)uiaf.List.Count / AchievementRepository.Count() * 100d:0.0}", $"{Math.Round((DateTime.Now - startDateTime).TotalMinutes, 2)}", Pack.SupportedGameVersion), string.Empty, ToastDuration.Short);
             }
             else
             {

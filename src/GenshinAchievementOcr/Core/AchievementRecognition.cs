@@ -16,7 +16,7 @@ internal static class AchievementRecognition
         AchievementMatchScore score = new(matchable);
 
         // Matching once
-        foreach (AchievementRepositoryMetaItem item in AchievementRepository.Meta.Achievements)
+        foreach (AchievementRepositoryMetaItem item in AchievementRepository.WondersOfTheWorldEnglish.Achievements)
         {
             double nameScore = CalcSimilarityStringScore(item.Name, matchable.Name);
             double descScore = CalcSimilarityStringScore(item.Desc, matchable.Desc);
@@ -45,7 +45,7 @@ internal static class AchievementRecognition
         // Matching twice
         if (score.NameScore == 0)
         {
-            foreach (AchievementRepositoryMetaItem item in AchievementRepository.Meta.Achievements)
+            foreach (AchievementRepositoryMetaItem item in AchievementRepository.WondersOfTheWorldEnglish.Achievements)
             {
                 double allScore = CalcSimilarityStringScore(item.Name + item.Desc, matchable.Name + matchable.Desc);
 

@@ -33,7 +33,7 @@
     <s:String x:Key="ReloadConfigFile">配置ファイルをリロード</s:String>
     <s:String x:Key="ReloadConfigFileDetail">配置ファイルをリロード。もしフォーマットが正しくない場合はデフォルトに戻す。</s:String>
     <s:String x:Key="OpenConfigFileDetail">配置ファイルをオープン。ファイル変更後は手動でリロードしてください。</s:String>
-    <s:String x:Key="JiggingCompletedTips">識別が完了されました。自動的に開いたフォルダにUIAF形式ファイルはUIDをフェイル名として保存されます。トータル{0}アチーブメントを検出、費やした時間は{1}分です。</s:String>
+    <s:String x:Key="JiggingCompletedTips">識別が完了されました。自動的に開いたフォルダにUIAF形式ファイルはUIDをフェイル名として保存されます。〔原神{5}〕あなたのUIDは{0}、{2}件の内に{1}件のアチーブメント「天地万象」を検出、完成率は{3}、費やした時間は{4}分です。</s:String>
     <s:String x:Key="JiggingNotCompletedTips">アチーブメント情報を検出できませんでした。アチーブメント「天地万象」のページを開いてからやり直してみてください。</s:String>
     <s:String x:Key="UsageMessageStepTitle">〔ステップ〕</s:String>
     <s:String x:Key="UsageMessage1" xml:space="preserve">1. ゲームを起動（限定：1440x900ウィンドウ／英語言語）。なおトレイを右クリックして、「ゲーム起動」が自動的に適切な設定で起動することができる。</s:String>

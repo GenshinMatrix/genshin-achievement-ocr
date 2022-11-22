@@ -33,7 +33,7 @@
     <s:String x:Key="ReloadConfigFile">Reload Config File</s:String>
     <s:String x:Key="ReloadConfigFileDetail">Reload the configuration file. If the configuration format is incorrect, it will be restored to the default value.</s:String>
     <s:String x:Key="OpenConfigFileDetail">Open the loading configuration file, and reload it manually after modification.</s:String>
-    <s:String x:Key="JiggingCompletedTips">OCR recognition completed, the UIAF format file in the auto opened folder is saved with the UID name. Total achievements {0}. Elapsed time: {1} min.</s:String>
+    <s:String x:Key="JiggingCompletedTips">OCR recognition completed, the UIAF format file in the auto opened folder is saved with the UID name. [Genshin Impact {5}] UID:{0} user total "Wonders of the World" achievements {1}/{2}, completion rate is {3}%. Elapsed time: {4} min.</s:String>
     <s:String x:Key="JiggingNotCompletedTips">Failed to identify any achievement information. Please open achievements "Wonders of the World" page and try again.</s:String>
     <s:String x:Key="UsageMessageStepTitle">[Step]</s:String>
     <s:String x:Key="UsageMessage1" xml:space="preserve">1. Launch game (Limit: 1440x900 window / English Language). You can use the "Tray icon context menu" to launch game with those appropriated settings.</s:String>

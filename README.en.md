@@ -1,5 +1,7 @@
 ・[English](README.en.md) ・[中文](README.md) ・[日本語](README.jp.md)
 
+# This page is under editing!!!
+
 [![GitHub downloads](https://img.shields.io/github/downloads/genshin-matrix/genshin-achievement-ocr/total)](https://github.com/genshin-matrix/genshin-achievement-ocr/releases)
 [![GitHub downloads](https://img.shields.io/github/downloads/genshin-matrix/genshin-achievement-ocr/latest/total)](https://github.com/genshin-matrix/genshin-achievement-ocr/releases)
 
@@ -17,16 +19,15 @@
   * 限定1440x900窗口游戏方案可稳定提供高识别精度；
   * 仅支持英语高容错识别，准确率自测100%；
   * 后续会实装另一种全语言支持且保证准确率100%的方案；
-  
 * 识别速度？
-  * 采用边自动滚动截取边识别方式1~2分钟完成；
+  * 采用边自动滚动截取边识别方式1~2分钟完成。
 
 
 ## 截图
 
-![](assets/image1.zh.png)
+![](assets/image1.en.png)
 
-![](assets/image2.zh.png)
+![](assets/image2.en.png)
 
 <img src="assets/image_kanyu.png" alt="image_kanyu" style="zoom: 80%;" />
 
@@ -51,18 +52,22 @@
 ## 常见问题
 
 1. 若安装包无法安装，请确保你的系统已安装应用商店，安装包依赖商店架构 (MSIX)。
+
 2. 运行环境是net6.0-windows10.0.18362.0。
+
 3. 其他分辨率／语言的支持？
+
    - 由于识别1次就1~2分钟完成很快了，优先考虑识别准确率的保证，其他分辨率暂不考虑。
    - 后续会实装另一种全语言支持且保证准确率100%的方案。
+
 4. 识别问题？
 
    - 提交问题请打开「导出截取图像」和「导出调试图像」开关，输出完成后可把「ocr文件夹」、「.json」和「.ocr」文件压缩成zip包投放到[issue](https://github.com/genshin-matrix/genshin-achievement-ocr/issues)区，我会抽空进行问题跟踪。
    - 可能是第三方导入软件存在问题。
+
 5. 其他成就页的支持？
    - 由于意义不大，后续可能考虑支持。
-
-1. 成就数据相关
+6. 成就数据相关
 
    - [统一可交换成就标准UIAF](https://github.com/UIGF-org/UIGF-org.github.io/blob/f7edd354e4578b730c6a98c6db50b8fd00a94b37/docs/standards/UIAF.md)
 
