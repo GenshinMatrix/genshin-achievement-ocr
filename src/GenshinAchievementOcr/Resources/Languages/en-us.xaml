@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="Genshin">Genshin</s:String>
+    <s:String x:Key="Achievement">Achievement</s:String>
+    <s:Double x:Key="AchievementWidth">10</s:Double>
+    <s:String x:Key="ButtonStart">Start</s:String>
+    <s:String x:Key="ButtonStop">Stop</s:String>
+    <s:String x:Key="ButtonOK">OK</s:String>
+    <s:String x:Key="Usage">Usage</s:String>
+    <s:String x:Key="UsageDetail">Prompt for usage.</s:String>
+    <s:String x:Key="TopMost">Top Most</s:String>
+    <s:String x:Key="Exit">Exit</s:String>
+    <s:String x:Key="VisitWebsite">Software Updates</s:String>
+    <s:String x:Key="Tips">Tips</s:String>
+    <s:String x:Key="RestorePos">Restore Position</s:String>
+    <s:String x:Key="Restart">Restart</s:String>
+    <s:String x:Key="LaunchGame">Launch Game</s:String>
+    <s:String x:Key="Language">Language</s:String>
+    <s:String x:Key="SupportedOSVersionTips">We only support running on an OS version higher than {0}. Your OS version is {1}.</s:String>
+    <s:String x:Key="GameNotLaunchedTips">No game progress detected. Please launch the game firstly.</s:String>
+    <s:String x:Key="GameConfigNotMatchedTips">Supported game settings not matched. Please change to resolution 1440x900 window and english game language. Your current settings is '{0}' and '{1}'.</s:String>
+    <s:String x:Key="ExportCapturedImages">Export Captured Images</s:String>
+    <s:String x:Key="ExportCapturedImagesTips">This switch will generate a large number of image files.</s:String>
+    <s:String x:Key="ExportDebugImages">Export Debug Images</s:String>
+    <s:String x:Key="ExportDebugImagesTips">This switch will generate a large number of image files.</s:String>
+    <s:String x:Key="NotStarted">Not started</s:String>
+    <s:String x:Key="Started">Started</s:String>
+    <s:String x:Key="OpenOutputFolder">Open Output Folder</s:String>
+    <s:String x:Key="OpenConfigFile">Open Config File</s:String>
+    <s:String x:Key="OpenWithConfigFile">Open Config File (Open with)</s:String>
+    <s:String x:Key="OpenWithNotepadConfigFile">Open Config File (Open with Notepad)</s:String>
+    <s:String x:Key="ReloadConfigFile">Reload Config File</s:String>
+    <s:String x:Key="ReloadConfigFileDetail">Reload the configuration file. If the configuration format is incorrect, it will be restored to the default value.</s:String>
+    <s:String x:Key="OpenConfigFileDetail">Open the loading configuration file, and reload it manually after modification.</s:String>
+    <s:String x:Key="JiggingCompletedTips">OCR recognition completed, the UIAF format file in the auto opened folder is saved with the UID name. Total achievements {0}. Elapsed time: {1} min.</s:String>
+    <s:String x:Key="JiggingNotCompletedTips">Failed to identify any achievement information. Please open achievements "Wonders of the World" page and try again.</s:String>
+    <s:String x:Key="UsageMessageStepTitle">[Step]</s:String>
+    <s:String x:Key="UsageMessage1" xml:space="preserve">1. Launch game (Limit: 1440x900 window / English Language). You can use the "Tray icon context menu" to launch game with those appropriated settings.</s:String>
+    <s:String x:Key="UsageMessage2" xml:space="preserve">2. Open achievements "Wonders of the World" page and click "Start" (Shortcut F11), but be careful not to click to select any achievement.</s:String>
+    <s:String x:Key="UsageMessage3" xml:space="preserve">3. The auto scrolling capture and ocr method is adopted. After 1-2 minutes, the output folder will be opened automatically. The exported UIAF format file (.json) can be opened through a software such as xunkong.</s:String>
+</ResourceDictionary>

@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="Genshin">原神</s:String>
+    <s:String x:Key="Achievement">ｱﾁｰﾌﾞﾒﾝﾄ</s:String>
+    <s:Double x:Key="AchievementWidth">12</s:Double>
+    <s:String x:Key="ButtonStart">ｽﾀｰﾄ</s:String>
+    <s:String x:Key="ButtonStop">ｽﾄｯﾌﾟ</s:String>
+    <s:String x:Key="ButtonOK">OK</s:String>
+    <s:String x:Key="Usage">使い方</s:String>
+    <s:String x:Key="UsageDetail">使い方を表示。</s:String>
+    <s:String x:Key="TopMost">最上位に表示</s:String>
+    <s:String x:Key="Exit">終了</s:String>
+    <s:String x:Key="VisitWebsite">プログラム更新</s:String>
+    <s:String x:Key="Tips">ヒント</s:String>
+    <s:String x:Key="RestorePos">右下に戻る</s:String>
+    <s:String x:Key="Restart">リスタート</s:String>
+    <s:String x:Key="LaunchGame">ケーム起動</s:String>
+    <s:String x:Key="Language">言語</s:String>
+    <s:String x:Key="SupportedOSVersionTips">本プログラムはＯＳバージョンが{0}もしくはそれより高いＯＳバージョンのみサポートしています。あなたのＯＳバージョンは{1}です。</s:String>
+    <s:String x:Key="GameNotLaunchedTips">ゲームのプロセス未検出、ゲームを起動してからスタートしてくれ。</s:String>
+    <s:String x:Key="GameConfigNotMatchedTips">サポートしていないゲームオプションが検知されました。表示モードを1400x900ウィンドとゲーム言語を英語に変更してから試みてください。今のオプションは「{0}」、「{1}」です。</s:String>
+    <s:String x:Key="ExportCapturedImages">識別画像をエクスポート</s:String>
+    <s:String x:Key="ExportCapturedImagesTips">本機能は大量な画像ファイルが作成される。</s:String>
+    <s:String x:Key="ExportDebugImages">デバッグ画像をエクスポート</s:String>
+    <s:String x:Key="ExportDebugImagesTips">本機能は大量な画像ファイルが作成される。</s:String>
+    <s:String x:Key="NotStarted">スタート待ち</s:String>
+    <s:String x:Key="Started">スタート済み</s:String>
+    <s:String x:Key="OpenOutputFolder">出力フォルダを開く</s:String>
+    <s:String x:Key="OpenConfigFile">配置ファイルを開く</s:String>
+    <s:String x:Key="OpenWithConfigFile">配置ファイルを開く (方法を選択して開く)</s:String>
+    <s:String x:Key="OpenWithNotepadConfigFile">配置ファイルを開く (メモ帳として開く)</s:String>
+    <s:String x:Key="ReloadConfigFile">配置ファイルをリロード</s:String>
+    <s:String x:Key="ReloadConfigFileDetail">配置ファイルをリロード。もしフォーマットが正しくない場合はデフォルトに戻す。</s:String>
+    <s:String x:Key="OpenConfigFileDetail">配置ファイルをオープン。ファイル変更後は手動でリロードしてください。</s:String>
+    <s:String x:Key="JiggingCompletedTips">識別が完了されました。自動的に開いたフォルダにUIAF形式ファイルはUIDをフェイル名として保存されます。トータル{0}アチーブメントを検出、費やした時間は{1}分です。</s:String>
+    <s:String x:Key="JiggingNotCompletedTips">アチーブメント情報を検出できませんでした。アチーブメント「天地万象」のページを開いてからやり直してみてください。</s:String>
+    <s:String x:Key="UsageMessageStepTitle">〔ステップ〕</s:String>
+    <s:String x:Key="UsageMessage1" xml:space="preserve">1. ゲームを起動（限定：1440x900ウィンドウ／英語言語）。なおトレイを右クリックして、「ゲーム起動」が自動的に適切な設定で起動することができる。</s:String>
+    <s:String x:Key="UsageMessage2" xml:space="preserve">2. アチーブメント「天地万象」のページを開き、「スタート」をクリックしてOCR識別を始まる（ショートカットキーF11）。</s:String>
+    <s:String x:Key="UsageMessage3" xml:space="preserve">3. スクロールしながら識別を行う形式になってて、1~2分後に完了し出力フォルダが自動的に開かれる、出力されたUIAF形式の.jsonファイルは尋空（xunkong）などのプログラムにインポート可。</s:String>
+</ResourceDictionary>

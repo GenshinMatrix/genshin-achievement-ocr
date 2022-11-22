@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="Genshin">原神</s:String>
+    <s:String x:Key="Achievement">成就识别</s:String>
+    <s:Double x:Key="AchievementWidth">12</s:Double>
+    <s:String x:Key="ButtonStart">启动</s:String>
+    <s:String x:Key="ButtonStop">停止</s:String>
+    <s:String x:Key="ButtonOK">好的</s:String>
+    <s:String x:Key="Usage">使用方法</s:String>
+    <s:String x:Key="UsageDetail">提示使用方法。</s:String>
+    <s:String x:Key="TopMost">顶层显示</s:String>
+    <s:String x:Key="Exit">退出</s:String>
+    <s:String x:Key="VisitWebsite">程序更新</s:String>
+    <s:String x:Key="Tips">提示</s:String>
+    <s:String x:Key="RestorePos">恢复到右下角</s:String>
+    <s:String x:Key="Restart">重启</s:String>
+    <s:String x:Key="LaunchGame">启动游戏</s:String>
+    <s:String x:Key="Language">语言</s:String>
+    <s:String x:Key="SupportedOSVersionTips">我们仅支持系统版本高于{0}。您的系统版本为{1}。</s:String>
+    <s:String x:Key="GameNotLaunchedTips">未检测到游戏进程，请先启动游戏。</s:String>
+    <s:String x:Key="GameConfigNotMatchedTips">检测到与支持的游戏设置不匹配，请修改配置为1400x900窗口以及英文语言。当前的设置为「{0}」、「{1}」。</s:String>
+    <s:String x:Key="ExportCapturedImages">导出截取图像</s:String>
+    <s:String x:Key="ExportCapturedImagesTips">本开关会生成大量的图像文件。</s:String>
+    <s:String x:Key="ExportDebugImages">导出调试图像</s:String>
+    <s:String x:Key="ExportDebugImagesTips">本开关会生成大量的图像文件。</s:String>
+    <s:String x:Key="NotStarted">未启动</s:String>
+    <s:String x:Key="Started">已启动</s:String>
+    <s:String x:Key="OpenOutputFolder">打开输出目录</s:String>
+    <s:String x:Key="OpenConfigFile">打开配置文件</s:String>
+    <s:String x:Key="OpenWithConfigFile">打开配置文件 (重设方式打开)</s:String>
+    <s:String x:Key="OpenWithNotepadConfigFile">打开配置文件 (以记事本方式打开)</s:String>
+    <s:String x:Key="ReloadConfigFile">重载配置文件</s:String>
+    <s:String x:Key="ReloadConfigFileDetail">重新加载配置文件，若配置格式不正确则会恢复为默认值。</s:String>
+    <s:String x:Key="OpenConfigFileDetail">打开加载配置文件，修改后请手动重新加载。</s:String>
+    <s:String x:Key="JiggingCompletedTips">识别完成，自动打开的目录内UIAF格式文件以UID命名保存。共识别成就{0}个，耗时{1}分。</s:String>
+    <s:String x:Key="JiggingNotCompletedTips">未能识别出任何成就信息。请打开「天地万象」后重新尝试。</s:String>
+    <s:String x:Key="UsageMessageStepTitle">〔使用步骤〕</s:String>
+    <s:String x:Key="UsageMessage1" xml:space="preserve">1. 启动游戏（限定：1440x900窗口／英语语言），可在托盘右键「启动游戏」自动以合适设置启动。</s:String>
+    <s:String x:Key="UsageMessage2" xml:space="preserve">2. 打开「天地万象」注意不要点击选中任何成就，点击启动进行自动开始OCR识别（快捷键F11）。</s:String>
+    <s:String x:Key="UsageMessage3" xml:space="preserve">3. 采用边自动滚动截取边识别方式，待1~2分钟后结束将自动打开输出目录，导出的UIAF格式文件(.json)可使用如寻空软件打开。</s:String>
+</ResourceDictionary>
