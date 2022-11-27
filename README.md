@@ -51,14 +51,44 @@
 ## 常见问题
 
 1. 若安装包无法安装，请确保你的系统已安装应用商店，安装包依赖商店架构 (MSIX)。
+
 2. 运行环境是net6.0-windows10.0.18362.0。
+
 3. 其他分辨率／语言的支持？
    - 由于识别1次就1~2分钟完成很快了，优先考虑识别准确率的保证，其他分辨率暂不考虑。
+   
+     > - 通常你的系统语言均能正常识别英文
+     >
+     > - 若有问题可参考下面方法安装英文OCR语言包。
+     >
+     > OCR语言包问题：
+     >
+     > 参考：https://learn.microsoft.com/zh-cn/windows/powertoys/text-extractor#supported-languages
+     >
+     > ```powershell
+     > // 已安装 OCR 语言包的语言
+     > [Windows.Media.Ocr.OcrEngine, Windows.Foundation, ContentType = WindowsRuntime]
+     > [Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages
+     > 
+     > // 查询 OCR 语言包
+     > Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*' }
+     > 
+     > // 为“en-US”安装 OCR 包
+     > $Capability = Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*en-US*' }
+     > $Capability | Add-WindowsCapability -Online
+     > 
+     > // 删除“en-US”的 OCR 包
+     > $Capability = Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*en-US*' }
+     > $Capability | Remove-WindowsCapability -Online
+     > ```
+   
    - 后续会实装另一种全语言支持且保证准确率100%的方案。
+   
 4. 识别问题？
 
    - 提交问题请打开「导出截取图像」和「导出调试图像」开关，输出完成后可把「ocr文件夹」、「.json」和「.ocr」文件压缩成zip包投放到[issue](https://github.com/genshin-matrix/genshin-achievement-ocr/issues)区，我会抽空进行问题跟踪。
    - 可能是第三方导入软件存在问题。
+   
 5. 其他成就页的支持？
    - 由于意义不大，后续可能考虑支持。
 
