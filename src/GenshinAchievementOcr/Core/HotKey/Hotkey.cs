@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using static Vanara.PInvoke.User32;
 
 namespace GenshinAchievementOcr.Core;
 
@@ -27,11 +28,11 @@ public class Hotkey
         }
     }
 
-    internal HOT_KEY_MODIFIERS ModifierKey =>
-        (Windows ? HOT_KEY_MODIFIERS.MOD_WIN : 0) |
-        (Control ? HOT_KEY_MODIFIERS.MOD_CONTROL : 0) |
-        (Shift ? HOT_KEY_MODIFIERS.MOD_SHIFT : 0) |
-        (Alt ? HOT_KEY_MODIFIERS.MOD_ALT : 0);
+    internal HotKeyModifiers ModifierKey =>
+        (Windows ? HotKeyModifiers.MOD_WIN : 0) |
+        (Control ? HotKeyModifiers.MOD_CONTROL : 0) |
+        (Shift ? HotKeyModifiers.MOD_SHIFT : 0) |
+        (Alt ? HotKeyModifiers.MOD_ALT : 0);
 
     public Hotkey()
     {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using static Windows.Win32.PInvoke;
+using Vanara.InteropServices;
+using static Vanara.PInvoke.Kernel32;
 
 namespace GenshinAchievementOcr.Core;
 
@@ -31,14 +32,11 @@ internal class NativeMethods
     public const int HWND_TOPMOST = -1;
     public const int HWND_NOTOPMOST = -2;
 
-    [DllImport("user32.dll", ExactSpelling = true)]
-    public static extern void mouse_event(MOUSE_EVENT_FLAGS dwFlags, int dx, int dy, int dwData, nuint dwExtraInfo);
-
     public static void Focus(IntPtr hwnd)
     {
-        _ = SendMessage(new(hwnd), WM_SYSCOMMAND, SC_RESTORE, 0);
-        _ = SetForegroundWindow(new(hwnd));
-        while (IsIconic(new(hwnd)))
+        _ = User32.SendMessage(new(hwnd), WM_SYSCOMMAND, (IntPtr)SC_RESTORE, 0);
+        _ = User32.SetForegroundWindow(new(hwnd));
+        while (User32.IsIconic(new(hwnd)))
         {
             continue;
         }
@@ -46,30 +44,26 @@ internal class NativeMethods
 
     public static int GetMouseSpeed()
     {
-        unsafe
-        {
-            uint mouseSpeed;
-            _ = SystemParametersInfo(SYSTEM_PARAMETERS_INFO_ACTION.SPI_GETMOUSESPEED, 0, &mouseSpeed, 0);
-            return (int)mouseSpeed;
-        }
+        _ = User32.SystemParametersInfo(User32.SPI.SPI_GETMOUSESPEED, out uint mouseSpeed);
+        return (int)mouseSpeed;
     }
 
     public static void SetWindowRECT(IntPtr hwnd, RECT rect, bool topMost = false)
     {
-        _ = SetWindowPos(new(hwnd), new(topMost ? (IntPtr)HWND_TOPMOST : (IntPtr)HWND_NOTOPMOST), rect.left, rect.top, rect.right - rect.left, rect.bottom - rect.top, 0);
+        _ = User32.SetWindowPos(new(hwnd), new(topMost ? (IntPtr)HWND_TOPMOST : (IntPtr)HWND_NOTOPMOST), rect.left, rect.top, rect.right - rect.left, rect.bottom - rect.top, 0);
     }
 
     public static void SetToolWindow(IntPtr hwnd)
     {
-        int style = GetWindowLong(new(hwnd), WINDOW_LONG_PTR_INDEX.GWL_EXSTYLE);
+        int style = User32.GetWindowLong(hwnd, User32.WindowLongFlags.GWL_EXSTYLE);
 
         style |= WS_EX_TOOLWINDOW;
-        _ = SetWindowLong(new(hwnd), WINDOW_LONG_PTR_INDEX.GWL_EXSTYLE, style);
+        _ = User32.SetWindowLong(hwnd, User32.WindowLongFlags.GWL_EXSTYLE, style);
     }
 
     public static void SetLayeredWindow(IntPtr hwnd, bool isLayered = true)
     {
-        int style = GetWindowLong(new(hwnd), WINDOW_LONG_PTR_INDEX.GWL_EXSTYLE);
+        int style = User32.GetWindowLong(hwnd, User32.WindowLongFlags.GWL_EXSTYLE);
 
         if (isLayered)
         {
@@ -81,6 +75,6 @@ internal class NativeMethods
             style &= ~WS_EX_TRANSPARENT;
             style &= ~WS_EX_LAYERED;
         }
-        _ = SetWindowLong(new(hwnd), WINDOW_LONG_PTR_INDEX.GWL_EXSTYLE, style);
+        _ = User32.SetWindowLong(hwnd, User32.WindowLongFlags.GWL_EXSTYLE, style);
     }
 }

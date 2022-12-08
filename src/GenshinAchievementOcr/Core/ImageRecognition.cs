@@ -6,6 +6,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Vanara.PInvoke;
 using Windows.Media.Ocr;
 
 namespace GenshinAchievementOcr.Core;
@@ -237,7 +238,7 @@ internal static class ImageRecognition
                 {
                     offsetY += spliteHeight / 2;
 
-                    _ = PInvoke.GetWindowRect(new(window.Hwnd), out RECT rect);
+                    _ = User32.GetWindowRect(new(window.Hwnd), out RECT rect);
                     if (offsetY > rect.bottom)
                     {
                         break;

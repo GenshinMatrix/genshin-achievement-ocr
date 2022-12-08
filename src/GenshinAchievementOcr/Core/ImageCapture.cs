@@ -9,7 +9,7 @@ internal static class ImageCapture
     public static bool IsFullScreen { get; private set; } = false;
     public static bool IsFullScreenMode(IntPtr hwnd)
     {
-        int exStyle = PInvoke.GetWindowLong(new(hwnd), WINDOW_LONG_PTR_INDEX.GWL_EXSTYLE);
+        int exStyle = User32.GetWindowLong(hwnd, User32.WindowLongFlags.GWL_EXSTYLE);
 
         if ((exStyle & NativeMethods.WS_EX_TOPMOST) != 0)
         {

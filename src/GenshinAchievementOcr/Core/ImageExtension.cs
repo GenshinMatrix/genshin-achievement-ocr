@@ -15,7 +15,7 @@ internal static class ImageExtension
         IntPtr hBitmap = bitmap.GetHbitmap();
         ImageSource imageSource = Imaging.CreateBitmapSourceFromHBitmap(hBitmap, IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions());
 
-        _ = PInvoke.DeleteObject(new(hBitmap));
+        _ = Gdi32.DeleteObject(new(hBitmap));
         return imageSource;
     }
 
@@ -38,11 +38,11 @@ internal static class ImageExtension
             Bitmap copied = new(w, h);
             using Graphics g = Graphics.FromImage(copied);
             IntPtr hdcDest = g.GetHdc();
-            IntPtr hdcSrc = PInvoke.GetDC(new(hwnd ?? PInvoke.GetDesktopWindow()));
-            _ = PInvoke.StretchBlt(new HDC(hdcDest), 0, 0, w, h, new(hdcSrc), x, y, w, h, ROP_CODE.SRCCOPY);
+            Gdi32.SafeHDC hdcSrc = User32.GetDC(new(hwnd ?? (IntPtr)User32.GetDesktopWindow()));
+            _ = Gdi32.StretchBlt(new HDC(hdcDest), 0, 0, w, h, hdcSrc, x, y, w, h, Gdi32.RasterOperationMode.SRCCOPY);
             g.ReleaseHdc();
-            _ = PInvoke.DeleteDC(new(hdcDest));
-            _ = PInvoke.DeleteDC(new(hdcSrc));
+            _ = Gdi32.DeleteDC(new(hdcDest));
+            _ = Gdi32.DeleteDC(hdcSrc);
             return copied;
         }
         catch

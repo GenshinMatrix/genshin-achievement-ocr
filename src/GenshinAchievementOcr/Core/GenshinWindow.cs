@@ -23,33 +23,33 @@ public class GenshinWindow
     public void MouseLeftButtonDown()
     {
         NativeMethods.Focus(hwnd);
-        PInvoke.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONDOWN, 0, (0 << 16) | 0);
+        User32.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONDOWN, IntPtr.Zero, (IntPtr)((0 << 16) | 0));
     }
 
     public void MouseLeftButtonUp()
     {
         NativeMethods.Focus(hwnd);
-        PInvoke.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONUP, 0, (0 << 16) | 0);
+        User32.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONUP, IntPtr.Zero, (IntPtr)((0 << 16) | 0));
     }
 
     public async Task MouseClick(int x, int y)
     {
         NativeMethods.Focus(hwnd);
-        PInvoke.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONDOWN, 0, (y << 16) | x);
+        User32.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONDOWN, IntPtr.Zero, (IntPtr)((y << 16) | x));
         await Task.Delay(80);
-        PInvoke.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONUP, 0, (y << 16) | x);
+        User32.PostMessage(new(hwnd), NativeMethods.WM_LBUTTONUP, IntPtr.Zero, (IntPtr)((y << 16) | x));
     }
 
     public void MouseWheelUp(int delta = 120)
     {
         NativeMethods.Focus(hwnd);
-        PInvoke.mouse_event(MOUSE_EVENT_FLAGS.MOUSEEVENTF_WHEEL, 0, 0, (uint)delta, 0);
+        User32.mouse_event(User32.MOUSEEVENTF.MOUSEEVENTF_WHEEL, 0, 0, delta, IntPtr.Zero);
     }
 
     public void MouseWheelDown(int delta = -120)
     {
         NativeMethods.Focus(hwnd);
-        NativeMethods.mouse_event(MOUSE_EVENT_FLAGS.MOUSEEVENTF_WHEEL, 0, 0, delta, 0);
+        User32.mouse_event(User32.MOUSEEVENTF.MOUSEEVENTF_WHEEL, 0, 0, delta, IntPtr.Zero);
     }
 
     public void MouseWheelDownPage()
@@ -64,7 +64,7 @@ public class GenshinWindow
     public void MouseMove(int x, int y)
     {
         NativeMethods.Focus(hwnd);
-        _ = PInvoke.GetWindowRect(new(hwnd), out RECT lpRect);
-        _ = PInvoke.SetCursorPos(lpRect.X + x, lpRect.Y + y);
+        _ = User32.GetWindowRect(hwnd, out RECT lpRect);
+        _ = User32.SetCursorPos(lpRect.X + x, lpRect.Y + y);
     }
 }

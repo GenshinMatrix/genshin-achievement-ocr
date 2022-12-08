@@ -2,6 +2,8 @@
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Windows.Input;
+using Vanara.PInvoke;
+using static Vanara.PInvoke.User32;
 
 namespace GenshinAchievementOcr.Core;
 
@@ -50,10 +52,10 @@ public sealed class HotkeyHook : IDisposable
         };
     }
 
-    internal void RegisterHotKey(HOT_KEY_MODIFIERS modifier, Keys key)
+    internal void RegisterHotKey(HotKeyModifiers modifier, Keys key)
     {
         currentId += 1;
-        if (!PInvoke.RegisterHotKey(new(window!.Handle), currentId, modifier, (uint)key))
+        if (!User32.RegisterHotKey(window!.Handle, currentId, modifier, (uint)key))
         {
             if (Marshal.GetLastWin32Error() == 1409)
                 throw new InvalidOperationException("Hotkey already occupied");
@@ -66,7 +68,7 @@ public sealed class HotkeyHook : IDisposable
     {
         for (int i = currentId; i > 0; i--)
         {
-            PInvoke.UnregisterHotKey(new(window!.Handle), i);
+            User32.UnregisterHotKey(new(window!.Handle), i);
         }
     }
 

@@ -7,10 +7,10 @@ public class DpiUtils
 {
     public static DpiScale GetScale()
     {
-        IntPtr hdc = PInvoke.GetDC(new(IntPtr.Zero));
-        float scaleX = PInvoke.GetDeviceCaps(new HDC(hdc), GET_DEVICE_CAPS_INDEX.LOGPIXELSX) / 96f;
-        float scaleY = PInvoke.GetDeviceCaps(new HDC(hdc), GET_DEVICE_CAPS_INDEX.LOGPIXELSY) / 96f;
-        PInvoke.ReleaseDC(new(IntPtr.Zero), new(hdc));
+        Gdi32.SafeHDC hdc = User32.GetDC(IntPtr.Zero);
+        float scaleX = Gdi32.GetDeviceCaps(hdc, Gdi32.DeviceCap.LOGPIXELSX) / 96f;
+        float scaleY = Gdi32.GetDeviceCaps(hdc, Gdi32.DeviceCap.LOGPIXELSY) / 96f;
+        User32.ReleaseDC(new(IntPtr.Zero), hdc);
         return new(scaleX, scaleY);
     }
 
