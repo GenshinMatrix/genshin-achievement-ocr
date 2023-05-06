@@ -9,7 +9,7 @@
   <Identity
     Name="75d60e03-e428-4ac4-817c-2170c2dd8001"
     Publisher="CN=ema"
-    Version="1.0.0.0" />
+    Version="1.1.0.0" />
 
   <Properties>
     <DisplayName>GenshinAchievementOcr</DisplayName>
