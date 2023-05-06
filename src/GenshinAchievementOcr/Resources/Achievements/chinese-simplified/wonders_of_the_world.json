@@ -1735,7 +1735,7 @@
     {
       "id": 81289,
       "name": "训练有素的考古学家",
-      "desc": "让所有元能尖碑重新运转。",
+      "desc": "让列柱沙原 、上风蚀地、下风蚀地所有的元能尖碑重新运转。",
       "reward": 5,
       "hidden": true,
       "order": 1275
@@ -1747,6 +1747,374 @@
       "reward": 5,
       "hidden": true,
       "order": 1276
+    },
+    {
+      "id": 81291,
+      "name": "「假若她们能知幽玄…」",
+      "desc": "利露帕尔自行解脱了与你的契约，选择面对自己漆黑深远的命运…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1277
+    },
+    {
+      "id": 81292,
+      "name": "「那只是永恒的奴役而已！」",
+      "desc": "沉睡千百年的镇灵利露帕尔与你订立了契约。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1278
+    },
+    {
+      "id": 81293,
+      "name": "无名之城的过往",
+      "desc": "居尔城神殿的壁画，讲述着一度辉煌的过往…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1279
+    },
+    {
+      "id": 81295,
+      "name": "宁静无梦的乐园",
+      "desc": "此处是花神的陵寝，是神明无梦的长眠…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1282
+    },
+    {
+      "id": 81296,
+      "name": "「…她必施行报应。」",
+      "desc": "当复仇者施展义怒，施行不义之人何曾预见过这一天呢？",
+      "reward": 5,
+      "hidden": true,
+      "order": 1283
+    },
+    {
+      "id": 81297,
+      "name": "被染红的月亮",
+      "desc": "这片广阔的棋盘，曾在血红的月亮之下推演何种暴行？",
+      "reward": 5,
+      "hidden": true,
+      "order": 1284
+    },
+    {
+      "id": 81298,
+      "name": "横冲直撞",
+      "desc": "盲目的沙虫在沙面猪突猛进，偶尔也会带来意外收获。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1285
+    },
+    {
+      "id": 81299,
+      "name": "「我也讨厌沙虫！」",
+      "desc": "第一次遭受沙虫的袭击。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1286
+    },
+    {
+      "id": 81300,
+      "name": "分歧的原点",
+      "desc": "知悉镀金旅团派往居尔城的调查队覆灭的真相。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1287
+    },
+    {
+      "id": 81301,
+      "name": "甚至不需要操作手册…",
+      "desc": "让奔奔恢复以往的活力。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1288
+    },
+    {
+      "id": 81302,
+      "name": "猎人的仁慈",
+      "desc": "让「猎鹰」塔德菈选择她的命运…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1289
+    },
+    {
+      "id": 81303,
+      "name": "飞毯之旅",
+      "desc": "看看这整个新世界，多令人眩晕的地方！",
+      "reward": 5,
+      "hidden": true,
+      "order": 1290
+    },
+    {
+      "id": 81304,
+      "name": "「生命，很神奇吧？」",
+      "desc": "沙虫的行宫错综复杂，生命总能开辟出意想不到的通路…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1291
+    },
+    {
+      "id": 81306,
+      "name": "旧日的园圃与源泉",
+      "desc": "旧日澧泉不竭的阶池，如今已被黄沙填满…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1293
+    },
+    {
+      "id": 81307,
+      "name": "她的黄金时代…",
+      "desc": "紫红色的帕蒂莎兰盛开在空空的王座上，仿佛女主人永恒的笑容…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1294
+    },
+    {
+      "id": 81308,
+      "name": "「…使列邦观看你的丑陋。」",
+      "desc": "使残损的棋盘重现黄沙之间。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1295
+    },
+    {
+      "id": 81309,
+      "name": "来自泥土，归于黄沙…",
+      "desc": "正如沙漠中的一切生命那般…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1296
+    },
+    {
+      "id": 81310,
+      "name": "完美沙暴",
+      "desc": "「让我们直冲气象地狱。」",
+      "reward": 5,
+      "hidden": true,
+      "order": 1297
+    },
+    {
+      "id": 81311,
+      "name": "无爱的塔兰图拉",
+      "desc": "「我非要把你煮成润滑油不可！」",
+      "reward": 5,
+      "hidden": true,
+      "order": 1298
+    },
+    {
+      "id": 81312,
+      "name": "帕维兹拉万·赫瓦拉",
+      "desc": "让千壑沙地所有的元能尖碑重新运转。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1299
+    },
+    {
+      "id": 81313,
+      "name": "漫长的盟约",
+      "desc": "尽管命运已各自破碎，盟约依旧在沉眠中存续…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1300
+    },
+    {
+      "id": 81314,
+      "name": "光之大地",
+      "desc": "抵达甘露花海。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1301
+    },
+    {
+      "id": 81315,
+      "name": "从灰暗群山间升起",
+      "desc": "护送米希尔走完「净罪的巡礼路」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1302
+    },
+    {
+      "id": 81316,
+      "name": "山上之树",
+      "desc": "使拉沙鲁回归甘露花海。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1303
+    },
+    {
+      "id": 81317,
+      "name": "浓雾之下",
+      "desc": "驱散弥漫在锋刃林泽的紫色烟霭。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1304
+    },
+    {
+      "id": 81318,
+      "name": "就在这里敲吧",
+      "desc": "回收全部五个「俱利般地」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1305
+    },
+    {
+      "id": 81319,
+      "name": "群鸟的授记",
+      "desc": "在祖尔宛的见证下，斯露莎已取得「双角的花冠」…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1306
+    },
+    {
+      "id": 81320,
+      "name": "看我正义的一击！",
+      "desc": "使用遗迹重炮击破巨像的核心。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1307
+    },
+    {
+      "id": 81321,
+      "name": "「…将一切希望弃扬。」",
+      "desc": "到达地上国度的尽头。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1308
+    },
+    {
+      "id": 81322,
+      "name": "大铸造者",
+      "desc": "启动地下遗迹工坊中的大升降机。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1309
+    },
+    {
+      "id": 81323,
+      "name": "七谷的试炼",
+      "desc": "「灵光绝唱」的力量已在掌握之中。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1310
+    },
+    {
+      "id": 81324,
+      "name": "横跨深渊的绳索",
+      "desc": "完成离渡之仪，打开穿过黑渊的道路…",
+      "reward": 5,
+      "hidden": true,
+      "order": 1311
+    },
+    {
+      "id": 81325,
+      "name": "骆驼、狮子和孩子",
+      "desc": "从沾染污秽的「染境」中取得所有「慈心」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1312
+    },
+    {
+      "id": 81326,
+      "name": "蒂尔甘之日",
+      "desc": "洁净高天的渊薮后，灵光与甘露的力量已遍撒大地。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1313
+    },
+    {
+      "id": 81327,
+      "name": "奇景之旅",
+      "desc": "完成「画家漂流记」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1314
+    },
+    {
+      "id": 81328,
+      "name": "「谜题全都解开了！」",
+      "desc": "完成「碑铭的研究」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1315
+    },
+    {
+      "id": 81329,
+      "name": "百灵归巢",
+      "desc": "完成「微暗之火」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1316
+    },
+    {
+      "id": 81339,
+      "name": "丰饶之海",
+      "desc": "花海中的所有花池都恢复了生机。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1317
+    },
+    {
+      "id": 81331,
+      "name": "勇者不会逃避",
+      "desc": "通过贾尔贾设下的全部试炼。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1318
+    },
+    {
+      "id": 81332,
+      "name": "闪光的道路",
+      "desc": "完成所有「灵宝铎」的挑战。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1319
+    },
+    {
+      "id": 81333,
+      "name": "历七盘而蹝蹑",
+      "desc": "完成所有「奇鼓跳跳菇」的挑战。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1320
+    },
+    {
+      "id": 81334,
+      "name": "黑泥流中的光辉",
+      "desc": "第一次利用灵光的力量，清除灰余晶。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1321
+    },
+    {
+      "id": 81335,
+      "name": "当红帕化作飞鸟…",
+      "desc": "第一次使用斯露莎飞行。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1322
+    },
+    {
+      "id": 81336,
+      "name": "在萨雷-奥杰卡的天空翱翔",
+      "desc": "使斯露莎维持飞行一段时间。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1323
+    },
+    {
+      "id": 81337,
+      "name": "你是谁的子孙，叫什么名字？",
+      "desc": "第一次使用斯露莎引导灵光之力。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1324
+    },
+    {
+      "id": 81338,
+      "name": "要用原力，斯露莎",
+      "desc": "使用斯露莎投掷「苦离果」，融化15个甘露凝结的晶石。",
+      "reward": 5,
+      "hidden": true,
+      "order": 1325
     },
     {
       "id": 82008,
@@ -2285,6 +2653,22 @@
       "reward": 10,
       "hidden": true,
       "order": 2158
+    },
+    {
+      "id": 82160,
+      "name": "控制了香料的人…",
+      "desc": "通过使风蚀弹发生扩散反应，击落浮游状态的风蚀沙虫。",
+      "reward": 5,
+      "hidden": true,
+      "order": 2160
+    },
+    {
+      "id": 82168,
+      "name": "此时无声胜有声",
+      "desc": "在深罪浸礼者进行初始之吟唱时，通过摧毁其所有的元素之环，使之瘫痪。",
+      "reward": 5,
+      "hidden": true,
+      "order": 2168
     },
     {
       "id": 84000,
@@ -3424,7 +3808,7 @@
     },
     {
       "id": 84082,
-      "name": "Eremita ne credite",
+      "name": "Eremitis ne credite",
       "desc": "协同赛诺将拉赫曼一行带入须弥。",
       "reward": 5,
       "hidden": true,
@@ -3501,6 +3885,38 @@
       "reward": 10,
       "hidden": true,
       "order": 5070
+    },
+    {
+      "id": 84092,
+      "name": "漫游星河之夜",
+      "desc": "回想关于血亲的回忆。",
+      "reward": 5,
+      "hidden": true,
+      "order": 5071
+    },
+    {
+      "id": 84093,
+      "name": "尚未致死的疾病",
+      "desc": "制作带来希望的「药物」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 5072
+    },
+    {
+      "id": 84094,
+      "name": "「命运」的彼岸",
+      "desc": "见证「罪人」赐予的「奇迹」。",
+      "reward": 5,
+      "hidden": true,
+      "order": 5073
+    },
+    {
+      "id": 84095,
+      "name": "卡利贝尔",
+      "desc": "完成「卡利贝尔」。",
+      "reward": 10,
+      "hidden": true,
+      "order": 5074
     }
   ]
 }
