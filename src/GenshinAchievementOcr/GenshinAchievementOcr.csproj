@@ -9,9 +9,9 @@
     <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <Platforms>x64</Platforms>
-    <AssemblyVersion>1.1.0</AssemblyVersion>
-    <FileVersion>1.1.0</FileVersion>
-    <Version>$(VersionPrefix)1.1.0</Version>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion> 
+    <Version>$(VersionPrefix)1.2.0</Version>
     <Authors>GenshinMatrix</Authors>
     <Company>GenshinMatrix</Company>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
@@ -29,7 +29,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
     <PackageReference Include="Costura.Fody" Version="5.7.0" Condition=" '$(Configuration)' == 'Release2'">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>compile; runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -39,15 +39,15 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>compile; runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Vanara.PInvoke.User32" Version="3.4.14" />
+    <PackageReference Include="Vanara.PInvoke.User32" Version="3.4.17" />
     <PackageReference Include="ModernWpfUI" Version="0.9.6" />
     <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
-    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
     <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
-    <PackageReference Include="System.IO.Abstractions" Version="19.2.22" />
-    <PackageReference Include="YamlDotNet" Version="13.1.0" />
+    <PackageReference Include="System.IO.Abstractions" Version="20.0.15" />
+    <PackageReference Include="YamlDotNet" Version="15.1.2" />
     <PackageReference Include="SharpVectors" Version="1.8.0" />
-    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
   </ItemGroup>
 
   <ItemGroup>
