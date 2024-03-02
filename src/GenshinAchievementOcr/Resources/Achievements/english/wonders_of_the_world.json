@@ -1367,7 +1367,7 @@
     {
       "id": 81241,
       "name": "Walking with Water and Wind",
-      "desc": "Complete \"Until Vana is Healed.\"",
+      "desc": "Complete \"Until Vana Is Healed.\"",
       "reward": 5,
       "hidden": true,
       "order": 1227
@@ -2117,6 +2117,928 @@
       "order": 1325
     },
     {
+      "id": 81340,
+      "name": "Angle Eraser",
+      "desc": "Suppress the Beastly Rift using the power of the crystals.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1326
+    },
+    {
+      "id": 81341,
+      "name": "Core Cooling",
+      "desc": "Cause the roiling lake to become placid once more.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1327
+    },
+    {
+      "id": 81342,
+      "name": "The White Ship",
+      "desc": "\"She's sailing on the sea of dreams...\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1328
+    },
+    {
+      "id": 81362,
+      "name": "Truly Mouthwatering!",
+      "desc": "Help Henri change his fate.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1329
+    },
+    {
+      "id": 81344,
+      "name": "Encyclopedia of Natural Philosophy",
+      "desc": "Use the glass wall and an indecipherable book to discover the gathering place of an old society.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1330
+    },
+    {
+      "id": 81345,
+      "name": "A Fontainian Message",
+      "desc": "Have a friendly chat with Virgil.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1331
+    },
+    {
+      "id": 81346,
+      "name": "Nothing but a Hound Dog...",
+      "desc": "Help Mamere fix Seymour.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1332
+    },
+    {
+      "id": 81347,
+      "name": "It's Fish, I Added Fish",
+      "desc": "Taste the wonderful \"birthday cake\" with the Melusine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1333
+    },
+    {
+      "id": 81348,
+      "name": "Welcome to Fontaine",
+      "desc": "Complete a cruise on the aquabus.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1334
+    },
+    {
+      "id": 81349,
+      "name": "Sogno di Volare",
+      "desc": "Complete a flight with the Antoine Roger Aircraft.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1335
+    },
+    {
+      "id": 81350,
+      "name": "Birth of the Modern Clock",
+      "desc": "Help Puca find a way to \"use\" the ore.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1336
+    },
+    {
+      "id": 81351,
+      "name": "Waterworld Future",
+      "desc": "Gaze upon the \"water\" beneath the \"surface.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1337
+    },
+    {
+      "id": 81352,
+      "name": "Aesthetics of Ugliness",
+      "desc": "And thus does Fontaine take two steps further toward beauty.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1338
+    },
+    {
+      "id": 81353,
+      "name": "Like Tears in the Rain",
+      "desc": "Find the impostor amidst the Hunter's Rays.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1339
+    },
+    {
+      "id": 81368,
+      "name": "Blubby, Chubby, Creative Evolution",
+      "desc": "Accompany the small Blubberbeast as it grows big and strong.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1340
+    },
+    {
+      "id": 81355,
+      "name": "These Are a Few of My...",
+      "desc": "...Favorite Things.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1341
+    },
+    {
+      "id": 81356,
+      "name": "An Eye for an Eye",
+      "desc": "Take care of those annoying Bullet Barnacles!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1342
+    },
+    {
+      "id": 81357,
+      "name": "Do You Believe In Rapture?",
+      "desc": "Help build a Blubberbeast paradise.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1343
+    },
+    {
+      "id": 81358,
+      "name": "Hardships Experienced...",
+      "desc": "\"To obtain the holy blade that might defeat the demon king, the knight broke into the ancient city, sealed using magic...\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1344
+    },
+    {
+      "id": 81359,
+      "name": "And After That...",
+      "desc": "\"The knight defeated the demon king, saving the imprisoned princess. Light has returned to the kingdom...\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1345
+    },
+    {
+      "id": 81360,
+      "name": "A Study in Sable",
+      "desc": "Find a more... special subject of the Institute of Natural Philosophy's study.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1346
+    },
+    {
+      "id": 81361,
+      "name": "Twenty Thousand Leagues Under the Sea",
+      "desc": "Go with the flow...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1347
+    },
+    {
+      "id": 81363,
+      "name": "Song of the Ancients",
+      "desc": "Hear now the melody of ancient eons.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1348
+    },
+    {
+      "id": 81364,
+      "name": "Ninianne of the Lake",
+      "desc": "Defeat the local legend, Ninianne of the Lake.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1349
+    },
+    {
+      "id": 81365,
+      "name": "Vivianne of the Lake",
+      "desc": "Defeat the local legend, Vivianne of the Lake.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1350
+    },
+    {
+      "id": 81366,
+      "name": "Fontaine Expects That Everyone Will Do Their Duty",
+      "desc": "An item, returned to its rightful owner...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1351
+    },
+    {
+      "id": 81367,
+      "name": "In Search of Frittered Time",
+      "desc": "Reach Reputation Lv. 10 in Fontaine.",
+      "reward": 20,
+      "hidden": false,
+      "order": 1352
+    },
+    {
+      "id": 81369,
+      "name": "Ocean Circuit Judge",
+      "desc": "Defeat the local legend, Ocean Circuit Judge.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1353
+    },
+    {
+      "id": 81370,
+      "name": "Iron Viscount",
+      "desc": "Defeat the local legend, Iron Viscount.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1354
+    },
+    {
+      "id": 81371,
+      "name": "Dobharcu, Lord of the Hidden",
+      "desc": "Defeat the local legend, Dobharcu, Lord of the Hidden.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1355
+    },
+    {
+      "id": 81372,
+      "name": "Fading Veteran",
+      "desc": "Defeat the local legend, Fading Veteran.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1356
+    },
+    {
+      "id": 81373,
+      "name": "Swords of the Gorge",
+      "desc": "Defeat the local legends, the Swords of the Gorge.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1357
+    },
+    {
+      "id": 81374,
+      "name": "The Fairy Knight Twins",
+      "desc": "Defeat the local legends, the Fairy Knight Twins",
+      "reward": 5,
+      "hidden": true,
+      "order": 1358
+    },
+    {
+      "id": 81375,
+      "name": "Consumer Society",
+      "desc": "Buy as much as you like at the Rag and Bone Shop.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1359
+    },
+    {
+      "id": 81376,
+      "name": "When the Clock Strikes Midnight",
+      "desc": "Discover Caterpillar's true identity.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1360
+    },
+    {
+      "id": 81377,
+      "name": "Non-Zero-Sum Game",
+      "desc": "Complete the Coupon Cafeteria satisfaction survey.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1361
+    },
+    {
+      "id": 81378,
+      "name": "The Superfluous Man's Account",
+      "desc": "Listen to Clynes's story.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1362
+    },
+    {
+      "id": 81379,
+      "name": "Les Quatre Coups",
+      "desc": "Complete the \"Fruity Order\" and Blanche's story.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1363
+    },
+    {
+      "id": 81380,
+      "name": "What Lies at the End of the Rainbow...?",
+      "desc": "Follow the light to where it ultimately leads.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1364
+    },
+    {
+      "id": 81381,
+      "name": "Come on out, Mystery Ore! Grant my wish!",
+      "desc": "Gather all seven mysterious yellow-green ores.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1365
+    },
+    {
+      "id": 81382,
+      "name": "Not So Strait Is the Gate",
+      "desc": "Opened the door to a certain secret study.",
+      "reward": 5,
+      "hidden": false,
+      "order": 1366
+    },
+    {
+      "id": 81383,
+      "name": "The Remains of the Day",
+      "desc": "Spent a lot of time cultivating aesthetics.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1367
+    },
+    {
+      "id": 81384,
+      "name": "The Calendar of the Future Is Longer Than the Diary of the Past",
+      "desc": "We all have a bright future ahead of us...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1368
+    },
+    {
+      "id": 81385,
+      "name": "Break the Time Zone",
+      "desc": "Pop the Thorny Cyst and purify the waters.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1369
+    },
+    {
+      "id": 81386,
+      "name": "The Forgotten Ream",
+      "desc": "Help Broglie retrieve and organize all the hydrological monitoring data.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1370
+    },
+    {
+      "id": 81387,
+      "name": "While Motors Sleep...",
+      "desc": "Discover the secret hidden within \"Kuisel's Clockwork Workshop.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1371
+    },
+    {
+      "id": 81388,
+      "name": "The Worst! Fontaine's Eight Evil Clockwork Knights!",
+      "desc": "Obtained the legacy of the \"imperfect\" clockwork meka.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1372
+    },
+    {
+      "id": 81389,
+      "name": "\"Automated Supercomputing Field Generator\"",
+      "desc": "Defeat Local Legend: Automated Supercomputing Field Generator.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1373
+    },
+    {
+      "id": 81390,
+      "name": "Slam-Bang No-Holds Barred Meropide-Style Pankration",
+      "desc": "Guide Poiret and Genevieve to victory in the recreational Pankration tournament.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1374
+    },
+    {
+      "id": 81391,
+      "name": "Undocumented Feature",
+      "desc": "Trigger the hidden property of the machine when repairing the Initial Skill Sample No. 2.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1375
+    },
+    {
+      "id": 81392,
+      "name": "Le Scaphandre et le Pufferfruit",
+      "desc": "Complete the advanced underwater training.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1376
+    },
+    {
+      "id": 81393,
+      "name": "\"Luachra the Brilliant\"",
+      "desc": "Defeat the local legend, Luachra the Brilliant.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1377
+    },
+    {
+      "id": 81395,
+      "name": "Mired in Red Tape",
+      "desc": "Complete the Fontaine Research Institute's \"final review.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1379
+    },
+    {
+      "id": 81396,
+      "name": "Solitary Report",
+      "desc": "Obtain Chronie's personally printed \"special report.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1380
+    },
+    {
+      "id": 81398,
+      "name": "The Red Meanies' Revenge",
+      "desc": "Removed all the Red Meanies and Mini Meanies from Bravais's Press Works.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1382
+    },
+    {
+      "id": 81399,
+      "name": "The Final Fonta Sea",
+      "desc": "...a Font of Refreshment!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1383
+    },
+    {
+      "id": 81400,
+      "name": "\"...What New Tide?\"",
+      "desc": "Read all the fashion reading materials.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1384
+    },
+    {
+      "id": 81401,
+      "name": "A Perfect Yesterday",
+      "desc": "The day that has passed cannot stay...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1385
+    },
+    {
+      "id": 81402,
+      "name": "Thanks For Your Patronage!",
+      "desc": "Obtained a twice-lucky fortune slip.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1386
+    },
+    {
+      "id": 81403,
+      "name": "The Final Fonta Sea",
+      "desc": "...a Font of Refreshment!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1387,
+      "preStage": 81399
+    },
+    {
+      "id": 81404,
+      "name": "The Final Fonta Sea",
+      "desc": "...a Font of Refreshment!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1388,
+      "preStage": 81403
+    },
+    {
+      "id": 81405,
+      "name": "\"Yseut\"",
+      "desc": "Defeat Local Legend: Yseut.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1389
+    },
+    {
+      "id": 81406,
+      "name": "Tomorrow, and Tomorrow, and Tomorrow",
+      "desc": "Teach Pahsiv how to say goodbye.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1390
+    },
+    {
+      "id": 81407,
+      "name": "Narzissenkreuz Notes: The Labyrinth",
+      "desc": "\"What do you think of this world I have drawn for you?\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1391
+    },
+    {
+      "id": 81408,
+      "name": "One Involved in the Matter",
+      "desc": "Learn the secrets of the Narzissenkreuz Ordo and defeat Jakob.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1392
+    },
+    {
+      "id": 81409,
+      "name": "An Immortal Emperor in a Mundane Universe",
+      "desc": "Defeat Narzissenkreuz.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1393
+    },
+    {
+      "id": 81411,
+      "name": "Farewell, Mr. Eliphas",
+      "desc": "Defeat Eliphas.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1395
+    },
+    {
+      "id": 81414,
+      "name": "Satisfactory Naval Force",
+      "desc": "Obtain treasure through a fierce hail of naval cannonry.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1398
+    },
+    {
+      "id": 81415,
+      "name": "Space Force Cadet",
+      "desc": "Hit every shot!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1399
+    },
+    {
+      "id": 81417,
+      "name": "The Story Is Over, But...",
+      "desc": "\"The adventure they call life still goes on.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1401
+    },
+    {
+      "id": 81419,
+      "name": "I Fear'd the Fury of My Wind",
+      "desc": "...Would Blight All Blossoms Fair and True.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1403
+    },
+    {
+      "id": 81422,
+      "name": "A Predictable Ending",
+      "desc": "You help the Fontaine Research Institute get back on track...?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1406
+    },
+    {
+      "id": 81423,
+      "name": "A World Yet to Be Disenchanted",
+      "desc": "Give Mysterious Xenochromatic Crystals to the helmsman of the \"Rusty Rudder\" 3 times.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1407
+    },
+    {
+      "id": 81424,
+      "name": "À la volonté du peuple",
+      "desc": "Obtain the promise of the Rainbow Rose.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1408
+    },
+    {
+      "id": 81425,
+      "name": "Crow or Blackbird?",
+      "desc": "It's a Pelican!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1409
+    },
+    {
+      "id": 81427,
+      "name": "I Do Believe in Fairies",
+      "desc": "Help Penny resolve her inner turmoil.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1411
+    },
+    {
+      "id": 81428,
+      "name": "In the Language of Flowers, the Lumidouce Bell Means...?",
+      "desc": "You discover a flower in a corner that no one has paid any mind.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1412
+    },
+    {
+      "id": 81430,
+      "name": "Hope Is a Nice Word",
+      "desc": "Witness new life spring forth in a certain ruin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1414
+    },
+    {
+      "id": 81431,
+      "name": "Even Caesar Could Not Buy This From Me",
+      "desc": "Obtain the greatest artwork in this world.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1415
+    },
+    {
+      "id": 81432,
+      "name": "Chassanion",
+      "desc": "Defeat Local Legend: Chassanion",
+      "reward": 5,
+      "hidden": true,
+      "order": 1416
+    },
+    {
+      "id": 81433,
+      "name": "Mageblade Corrouge",
+      "desc": "Defeat Local Legend: Mageblade Corrouge",
+      "reward": 5,
+      "hidden": true,
+      "order": 1417
+    },
+    {
+      "id": 81434,
+      "name": "Rocky Avildsen",
+      "desc": "Defeat Local Legend: Rocky Avildsen",
+      "reward": 5,
+      "hidden": true,
+      "order": 1418
+    },
+    {
+      "id": 81435,
+      "name": "Liam",
+      "desc": "Defeat Local Legend: Liam",
+      "reward": 5,
+      "hidden": true,
+      "order": 1419
+    },
+    {
+      "id": 81436,
+      "name": "Deianeira of Snezhevna",
+      "desc": "Defeat Local Legend: Deianeira of Snezhevna",
+      "reward": 5,
+      "hidden": true,
+      "order": 1420
+    },
+    {
+      "id": 81437,
+      "name": "A Human Drama",
+      "desc": "Witness the story of the Leroy family.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1421
+    },
+    {
+      "id": 81438,
+      "name": "\"Rulers of the Chizhang Mountains\"",
+      "desc": "Defeat Local Legend, Rulers of the Chizhang Mountains.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1422
+    },
+    {
+      "id": 81439,
+      "name": "The Supreme Secret",
+      "desc": "Find the Guhua treasure.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1423
+    },
+    {
+      "id": 81440,
+      "name": "True Mastery of Spear and Sword",
+      "desc": "Complete all the trials in Wangshan Hall.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1424
+    },
+    {
+      "id": 81441,
+      "name": "A Ruined Tale",
+      "desc": "Solve the mystery left behind by the ancestors.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1425
+    },
+    {
+      "id": 81442,
+      "name": "Good as New",
+      "desc": "Complete the restoration and reconstruction of six ruined areas.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1426
+    },
+    {
+      "id": 81443,
+      "name": "Break the Benighting",
+      "desc": "Destroy the seven sources of the miasma.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1427
+    },
+    {
+      "id": 81444,
+      "name": "To Touch the Face of Heaven",
+      "desc": "Use adeptal energy to temporarily break free from the earth's shackles.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1428
+    },
+    {
+      "id": 81445,
+      "name": "A Mere Rock...",
+      "desc": "...Should nonetheless be placed with care.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1429
+    },
+    {
+      "id": 81446,
+      "name": "Tea I Am, Tea in a Cauldron",
+      "desc": "Help Uncle Luo repair the tea cauldron in Qiaoying Village.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1430
+    },
+    {
+      "id": 81447,
+      "name": "When Comes Spring or Autumn?",
+      "desc": "Behold the ancient tree, returned to life.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1431
+    },
+    {
+      "id": 81448,
+      "name": "\"What About Sliced Meat Now?\"",
+      "desc": "Find the habitat of the Venerable Jadestone Turtle.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1432
+    },
+    {
+      "id": 81449,
+      "name": "Long Days in the Realm Within",
+      "desc": "Fill all the ancient teacups between Chenyu Vale's mountains and rivers.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1433
+    },
+    {
+      "id": 81450,
+      "name": "Cloud-Parting Carpfall",
+      "desc": "Enter the long-sealed Carp's Rest with Lingyuan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1434
+    },
+    {
+      "id": 81452,
+      "name": "Five Blades Return to Wangshan",
+      "desc": "Find all five \"lost swords of Guhua.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1436
+    },
+    {
+      "id": 81454,
+      "name": "\"Wanna Learn? I'll Teach You!\"",
+      "desc": "Defeat a special unofficial Guhua Clan disciple 3 times.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1438
+    },
+    {
+      "id": 81455,
+      "name": "The Mural Veil",
+      "desc": "Witness four murals.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1439
+    },
+    {
+      "id": 81457,
+      "name": "Breaking Iron and Stone",
+      "desc": "Help the Millelith investigate the Iron and Salt Gang's illegal trade activities.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1441
+    },
+    {
+      "id": 81458,
+      "name": "Chenyu Vale Sights",
+      "desc": "Obtain a limited-edition \"Our Chenyu Vale Trek\" commemorative photo album.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1442
+    },
+    {
+      "id": 81459,
+      "name": "Xiangjun's Dreams",
+      "desc": "Discover the secret behind the Spiritscent Flower.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1443
+    },
+    {
+      "id": 81460,
+      "name": "Swift Acceptance",
+      "desc": "You've learned quite a bit about raising Sumpter Beasts... But is this really useful?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1444
+    },
+    {
+      "id": 81461,
+      "name": "Non-Hidden Backup Energy Source",
+      "desc": "Restart the ruin machine in Chenyu Vale.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1445
+    },
+    {
+      "id": 81462,
+      "name": "At the Construction of the Endless Wall",
+      "desc": "Find the items left behind by the Millelith.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1446
+    },
+    {
+      "id": 81463,
+      "name": "Up the Bishui",
+      "desc": "Hear of the beauty of the Bishui River from boat-songs.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1447
+    },
+    {
+      "id": 81465,
+      "name": "The Carp Leaps, Heaven's Gates Open",
+      "desc": "Witness the Golden Carp leap into the valley.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1449
+    },
+    {
+      "id": 81466,
+      "name": "Spirits Adrift, Alas, in Water",
+      "desc": "Discover the secret of the Jademouth.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1450
+    },
+    {
+      "id": 81467,
+      "name": "\"Jade, O Jade, Grant Me My Wish...\"",
+      "desc": "Retrieve the final Votive Rainjade.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1451
+    },
+    {
+      "id": 81468,
+      "name": "As If Seen From Afar",
+      "desc": "Ascend to the heavens with the dreams of the past.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1452
+    },
+    {
+      "id": 81469,
+      "name": "Ancient Shaman-Song",
+      "desc": "Witness the completion of the Rainjade Rite.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1453
+    },
+    {
+      "id": 81470,
+      "name": "The Secluded Path",
+      "desc": "Return to Carp's Rest.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1454
+    },
+    {
+      "id": 81471,
+      "name": "Secret Miracle",
+      "desc": "Discover the secret of the jade in Mt. Laixin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1455
+    },
+    {
       "id": 82008,
       "name": "Juggernaut",
       "desc": "Crush all of a Geo Hypostasis' Rock Pillars of Revival before it can be revived.",
@@ -2609,7 +3531,7 @@
     {
       "id": 82144,
       "name": "Establishing a Beachhead",
-      "desc": "Witness the overclocking impact of the Algorithm of Semi-Intransient Matrix of Overseer Network",
+      "desc": "Witness the overclocking impact of the Algorithm of Semi-Intransient Matrix of Overseer Network.",
       "reward": 5,
       "hidden": true,
       "order": 2144
@@ -2669,6 +3591,78 @@
       "reward": 5,
       "hidden": true,
       "order": 2168
+    },
+    {
+      "id": 82175,
+      "name": "The White Path Between Two Rivers",
+      "desc": "Lose in the duel against the legendary Hunter's Ray...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2175
+    },
+    {
+      "id": 82176,
+      "name": "Cell, Splinter",
+      "desc": "Use Pneuma or Ousia attacks to interrupt the Breacher Primus's stress state.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2176
+    },
+    {
+      "id": 82177,
+      "name": "Too Hot to Handle!",
+      "desc": "Constantly attempt to freeze Tainted Hydro Phantasms...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2177
+    },
+    {
+      "id": 82178,
+      "name": "Funerary Storm",
+      "desc": "Use a Pneuma attack to weaken the whirlwind Coppelia creates during the performance's climax.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2178
+    },
+    {
+      "id": 82180,
+      "name": "Icebound Oath",
+      "desc": "Use an Ousia attack to remove the shield that Coppelius deploys during the performance's climax.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2179
+    },
+    {
+      "id": 82179,
+      "name": "The King Is Dead, Long Live the King!",
+      "desc": "Interrupt the Emperor of Fire and Iron's Searing Coronation.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2180
+    },
+    {
+      "id": 82187,
+      "name": "Many-as-One",
+      "desc": "Stop the Hydro Tulpa from absorbing Half-Tulpas twice in one challenge.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2186
+    },
+    {
+      "id": 82188,
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "desc": "Enter the belly of the beast twice during a single challenge.",
+      "reward": 10,
+      "hidden": true,
+      "order": 2187
+    },
+    {
+      "id": 82189,
+      "name": "A Pulse of Ice and Wind",
+      "desc": "Search for the connection between Solitary Suanni and Cryo.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2188
     },
     {
       "id": 84000,
@@ -2865,7 +3859,7 @@
     {
       "id": 84024,
       "name": "A New Star Approaches",
-      "desc": "Complete \"A New Star Approaches\".",
+      "desc": "Complete \"A New Star Approaches.\"",
       "reward": 5,
       "hidden": true,
       "order": 4025
@@ -3319,6 +4313,70 @@
       "order": 4089
     },
     {
+      "id": 84566,
+      "name": "Office on the Avenue",
+      "desc": "Witness various miscellaneous matters in the Court of Fontaine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4090
+    },
+    {
+      "id": 84567,
+      "name": "Not Your Average Joe",
+      "desc": "Brew a special blend of coffee.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4091
+    },
+    {
+      "id": 84568,
+      "name": "Aesthetic Critique",
+      "desc": "Listen to Depierris' theories regarding \"aesthetics.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 4092
+    },
+    {
+      "id": 84569,
+      "name": "Second Childhood",
+      "desc": "Play with the kids, and witness their story.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4093
+    },
+    {
+      "id": 84570,
+      "name": "A Sudden Squall",
+      "desc": "Witness Iaune's work travails.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4094
+    },
+    {
+      "id": 84571,
+      "name": "New Inspiration! New Products!",
+      "desc": "Help Heinry develop 3 new types of Fonta and try the \"experimental drink\" once.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4095
+    },
+    {
+      "id": 84572,
+      "name": "Who Tells You the Truth?",
+      "desc": "Help Guijarro find new inspiration...?",
+      "reward": 5,
+      "hidden": true,
+      "order": 4096
+    },
+    {
+      "id": 84573,
+      "name": "The Conformist",
+      "desc": "Witness a certain story regarding light, shadow and hydrology...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4097
+    },
+    {
       "id": 85000,
       "name": "Nothing to Lose But Time",
       "desc": "Unlock the secrets of two sundials.",
@@ -3576,7 +4634,7 @@
     },
     {
       "id": 84053,
-      "name": "\"All is Well\"",
+      "name": "\"All Is Well\"",
       "desc": "Help Wang Ping'an renovate Pervases' temple.",
       "reward": 5,
       "hidden": true,
@@ -3917,6 +4975,174 @@
       "reward": 10,
       "hidden": true,
       "order": 5074
+    },
+    {
+      "id": 84096,
+      "name": "Like Water Disappearing Into Water",
+      "desc": "Hear about the \"prophecy\" that has been circulating around Fontaine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5075
+    },
+    {
+      "id": 84097,
+      "name": "A Detective in Action",
+      "desc": "Investigate the truth of the incident as Lyney's \"attorney.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5076
+    },
+    {
+      "id": 84098,
+      "name": "A Twist of Great Magic",
+      "desc": "The Oratrice Mecanique d'Analyse Cardinale has delivered a verdict of not guilty.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5077
+    },
+    {
+      "id": 84099,
+      "name": "Prelude of Blancheur and Noirceur",
+      "desc": "Complete \"Prelude of Blancheur and Noirceur.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5078
+    },
+    {
+      "id": 84300,
+      "name": "Lennék én folyóvíz",
+      "desc": "Hear the Oceanid's call and connect with her consciousness.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5079
+    },
+    {
+      "id": 84301,
+      "name": "Once Upon a Time in Fleuve Cendre",
+      "desc": "Learn about Navia's father at the Spina di Rosula's stronghold.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5080
+    },
+    {
+      "id": 84302,
+      "name": "Tragedy Repeats Itself",
+      "desc": "Reveal the truth behind the \"serial disappearances case.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5081
+    },
+    {
+      "id": 84303,
+      "name": "As Light Rain Falls Without Reason",
+      "desc": "Complete \"As Light Rain Falls Without Reason.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5082
+    },
+    {
+      "id": 84304,
+      "name": "Visitor to the \"Aquarium\"",
+      "desc": "After completing all of the paperwork, go to the Fortress of Meropide.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5083
+    },
+    {
+      "id": 84305,
+      "name": "A Vision in a Dream",
+      "desc": "See what Childe experienced from his perspective in a dream.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5084
+    },
+    {
+      "id": 84306,
+      "name": "Fortress Corner Society's Rules",
+      "desc": "Investigated two of the \"hidden rules\" in the prison.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5085
+    },
+    {
+      "id": 84307,
+      "name": "To the Stars Shining in the Depths",
+      "desc": "Complete \"To the Stars Shining in the Depths.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5086
+    },
+    {
+      "id": 84308,
+      "name": "Le Déluge",
+      "desc": "Freminet recalls what happened to him...",
+      "reward": 5,
+      "hidden": true,
+      "order": 5087
+    },
+    {
+      "id": 84309,
+      "name": "The Secret of Blue Water",
+      "desc": "Learn the history and secrets of the Fortress of Meropide.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5088
+    },
+    {
+      "id": 84310,
+      "name": "Out of the Aeons",
+      "desc": "Learn of Neuvillette's true identity.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5089
+    },
+    {
+      "id": 84311,
+      "name": "Cataclysm's Quickening",
+      "desc": "Complete \"Cataclysm's Quickening.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5090
+    },
+    {
+      "id": 84312,
+      "name": "The Gulls Once Wept",
+      "desc": "Witness the Poisson disaster.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5091
+    },
+    {
+      "id": 84313,
+      "name": "Love is Destructive",
+      "desc": "Navia survives her encounter with Primordial Seawater.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5092
+    },
+    {
+      "id": 84314,
+      "name": "The Stage of Fate",
+      "desc": "Lay a trap with your companions that will allow you to \"judge a god.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5093
+    },
+    {
+      "id": 84315,
+      "name": "For a Better Tomorrow",
+      "desc": "People rebuild their home.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5094
+    },
+    {
+      "id": 84316,
+      "name": "Masquerade of the Guilty",
+      "desc": "Complete \"Masquerade of the Guilty.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5095
     }
   ]
 }
